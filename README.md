@@ -3,13 +3,13 @@ Official Announcements regarding changes, downtime, etc. to the API and Streams 
 Streams, endpoints, parameters, payloads, etc. described in the documents in this repository are considered official and supported.
 The use of any other streams, endpoints, parameters, or payloads, etc. is not supported; use them at your own risk and with no guarantees.
 
-Exchange Pair
-Returns list of all the trade pairs from exchange.
+<h2 class="h3 capitalize font-bold">Exchange Pair</h2>
+<small>Returns list of all the trade pairs from exchange.</small>
 
+<p><strong>URL : </strong><a href="https://www.cryptobulls.exchange/ticker" target="_blank">https://www.cryptobulls.exchange/ticker</a></p>
+<p><strong>Note:</strong> In the URL change the market value with real (eg. btc_eth, btc_ltc, btc_mgc, btc_sil etc....)</p>
 
-URL : https://www.cryptobulls.exchange/ticker
-
-Response Example :
+<p><strong>Response Example :</strong></p>
 
 <pre>{
     "btc_eth": {
@@ -37,16 +37,11 @@ Response Example :
 }
 </pre>
 
-Market Data List
-Returns details of single trade pair from exchange.
-
-
-URL : https://www.cryptobulls.exchange/ticker/market
-
-Note: In the URL change the market value with real (eg. btc_eth, btc_ltc, btc_mgc, btc_sil etc....)
-
-Response Example :
-
+<h2 class="h3 capitalize font-bold">Market Data List</h2>
+<small>Returns details of single trade pair from exchange.</small>
+<p><strong>URL : </strong><a href="https://www.cryptobulls.exchange/ticker/btc_eth" target="_blank">https://www.cryptobulls.exchange/ticker/market</a></p>
+<p><strong>Note:</strong> In the URL change the market value with real (eg. btc_eth, btc_ltc, btc_mgc, btc_sil etc....)</p>
+<p><strong>Response Example :</strong></p>
 <pre>{
     "price_change_24h": "-10.89108911",
     "price_change_7d": "-25.00000000",
@@ -59,14 +54,11 @@ Response Example :
     }
 }</pre>
 
-Transactions
-Returns details of single trade pair transactions from exchange.
-
-URL : https://www.cryptobulls.exchange/transaction/btc_eth
-
-Note: In the URL change the market value with real (eg. btc_eth, btc_ltc, btc_mgc, btc_sil etc....)
-
-Response Example :
+<h2 class="h3 capitalize font-bold">Transactions</h2>
+<small>Returns details of single trade pair transactions from exchange.</small>
+<p><strong>URL : </strong><a href="https://www.cryptobulls.exchange/transaction/btc_eth" target="_blank">https://www.cryptobulls.exchange/transaction/btc_eth</a></p>
+<p><strong>Note:</strong> In the URL change the market value with real (eg. btc_eth, btc_ltc, btc_mgc, btc_sil etc....)</p>
+<p><strong>Response Example :</strong></p>
 
 <pre>[
     {
