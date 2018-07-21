@@ -11,7 +11,7 @@ URL : https://www.cryptobulls.exchange/ticker
 
 Response Example :
 
-{
+<pre>{
     "btc_eth": {
         "price_change_24h": "-2.00138026",
         "price_change_7d": "-10.60186351",
@@ -35,6 +35,7 @@ Response Example :
         }
     }
 }
+</pre>
 
 Market Data List
 Returns details of single trade pair from exchange.
@@ -46,7 +47,7 @@ Note: In the URL change the market value with real (eg. btc_eth, btc_ltc, btc_mg
 
 Response Example :
 
-{
+<pre>{
     "price_change_24h": "-10.89108911",
     "price_change_7d": "-25.00000000",
     "last_price": "0.00000090",
@@ -56,7 +57,7 @@ Response Example :
         "btc_trade": 7.0832617357782,
         "fee_collected": 0.014166523471556
     }
-}
+}</pre>
 
 Transactions
 Returns details of single trade pair transactions from exchange.
@@ -67,7 +68,7 @@ Note: In the URL change the market value with real (eg. btc_eth, btc_ltc, btc_mg
 
 Response Example :
 
-[
+<pre>[
     {
         "id": "9384",
         "timestamp": "1529844234",
@@ -111,5 +112,5 @@ Response Example :
         Shows last 100 executed transactions
         
  }
-]
+]</pre>
                 
