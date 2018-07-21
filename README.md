@@ -1,7 +1,6 @@
 # Official Documentation for the Cryptobulls Exchange APIs and Streams.
-Official Announcements regarding changes, downtime, etc. to the API and Streams will be reported here: https://www.cryptobulls.exchange/api
-Streams, endpoints, parameters, payloads, etc. described in the documents in this repository are considered official and supported.
-The use of any other streams, endpoints, parameters, or payloads, etc. is not supported; use them at your own risk and with no guarantees.
+<p>Official Announcements regarding changes, downtime, etc. to the API and Streams will be reported here: https://www.cryptobulls.exchange/api</p>
+
 
 <h2 class="h3 capitalize font-bold">Exchange Pair</h2>
 <small>Returns list of all the trade pairs from exchange.</small>
